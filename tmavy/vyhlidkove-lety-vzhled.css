@@ -1,0 +1,64 @@
+.lety-velky-nadpis {
+    color: white;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.lety {
+    margin: auto;
+    width: 95%;
+    height: auto;
+    min-height: 200px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.lety-text {
+    width: 70%;
+    float: left;
+}
+.lety-vyber-nadpis {
+    text-align: left;
+    float: left;
+    margin: auto;
+    height: auto;
+    overflow: hidden;
+    color: white;
+}
+
+.lety-vyber-text{
+    float: left;
+    margin: auto;
+    height: auto;
+}
+.lety-vyber-obrazek{
+    width: 20%;
+    float: right;
+    margin: auto;
+    text-align: center;
+    height: auto;
+    padding-top: 10px;
+}
+.zoom{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 970px) {
+    .lety-text{
+        width: 100%;
+        height: auto;
+        float: left;
+  }
+}
+
+@media screen and (max-width: 970px) {
+    lety-vyber-obrazek {
+        width: auto;
+        min-height: 30px;
+        max-height: 40px;
+        float: left;
+  }
+}

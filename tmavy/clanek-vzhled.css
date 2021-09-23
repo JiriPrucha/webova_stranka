@@ -1,0 +1,18 @@
+.clanek {
+    width 95%;
+    height: auto;
+}
+.text {
+    font-size: 20px;
+}
+.obrazek{
+    width: 100%;
+    height: auto;
+}
+.obrazek1 {
+    float: left;
+}
+
+.obrazek2{
+    float: right;
+}

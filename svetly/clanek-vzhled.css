@@ -1,0 +1,19 @@
+.clanek {
+    width 95%;
+    height: auto;
+}
+.text {
+    font-size: 20px;
+}
+.obrazek{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.obrazek1 {
+    float: left;
+    max-height: 300px;
+    width: auto;
+    display: inline-block;
+    padding: 10px;
+}

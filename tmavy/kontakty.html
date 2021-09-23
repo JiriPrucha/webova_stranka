@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="cs">
+    <head>
+        <meta charset='utf-8'>
+        <meta name='description' content='Největší Aeroklub v širokém okolí.'>
+        <meta name='keywords' content='aeroklub, Tábor, letadla, letiště Tábor'>
+        <meta name='author' content='Jiří Průcha'>
+        <meta name='robots' content='all'>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="kontakty-vzhled.css" type="text/css" >
+        <link rel="stylesheet" href="zaklad.css" type="text/css" >
+        
+        <title> Aeroklub Tábor </title>
+        <link rel="icon" href="Obrazky/icons/icon_top.png">
+    </head>
+    
+    <body>
+        <header>
+            <div class="uprava-sirka">
+                <a href="index.html"><img class="logo" src="Obrazky/Logo.png" alt="Aeroklub Tábor logo"></a>
+                <nav class="menu">
+                    <ul class="vyber-right">
+                        <li class="menu-item"><a href="vyhlidkove-lety.html">VYHLÍDKOVÉ LETY</a></li>
+                        <li class="menu-item"><a href="fotogalerie.html">FOTOGALERIE</a></li>
+                        <li class="menu-item"><a href="kontakty.html">REZERVACE</a></li>
+                        <li class="menu-item"><a href="http://www.jiriprucha.cz/maturitni_prace/svetly/kontakty.html"><img class="ikona-domu" src="Obrazky/icons/icon_tmavy.png" alt="ikona noční režim"></a></li>
+                        <li class="menu-item"><a href="index.html"><img class="ikona-domu" src="Obrazky/icons/icon_home.png" alt="ikona domů"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="uprava-sirka">
+            
+            <div class="nadpis">
+                <hr>
+                <h1>Rezervace vyhlídkových letů</h1>
+                <hr>
+            </div>
+            
+            <h2>Rezervujte si svůj let nyní.</h2>
+            
+            <form action="posli.php" method="post">
+                <p class="text">E-mail</p>
+                <input class="pole-email" type="email" name="email" size="25" value=" ">
+                <br>
+                <p class="text">předmět</p>
+                <input type="text" placeholder="Proč píšete?" name="predmet" size="25" value=" ">
+                <p class="text">zpráva</p>
+                <textarea name="zprava" rows="10" cols="38" value=" "></textarea> 
+                <br>
+                <input type="submit" value="Odeslat"> 
+            </form>  
+            
+        </div>
+        <footer>
+            <div class="footer-kontakty">
+                <div class="kontaky-dole">
+                    <a class="menu-item" target="_blank" href="https://www.facebook.com/AKTabor/"><img class="ikona-kontakty" src="Obrazky/icons/icon_facebook.png" alt="ikona facebook"></a>
+                    <a class="menu-item" target="_blank" href="http://www.instagram.com"><img class="ikona-kontakty" src="Obrazky/icons/icon_instagram.png" alt="ikona instagram"></a>
+                    <a class="menu-item" target="_blank" href="http://www.twitter.com"><img class="ikona-kontakty" src="Obrazky/icons/icon_twitter.png" alt="ikona twitter"></a>
+                </div>
+            </div>
+            <div class="ja">
+                <div class="ja-text">
+                    <p>Jiří Průcha 2020</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

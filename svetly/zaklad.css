@@ -1,0 +1,155 @@
+body, html{
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+/* header */
+header {
+    background-color: #F2F2F2;
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/*logo header, nav bar*/
+
+.logo {
+    display: inline-block;
+    margin-top: auto;
+    height: 100%;
+    max-height: 80px;
+    width: auto;
+    float: left;
+}
+
+
+/* nav bar */
+
+.menu {
+    margin-top: 18px;
+    float: right;
+    text-align: right;
+}
+
+@media screen and (max-width: 970px) {
+    .logo, .menu{
+        text-align: center;
+        margin: auto;
+  }
+}
+
+.vyber-right {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    display: inline-block;
+    font-size: 17px;
+    height: auto;
+    max-height: 17px;
+    font-weight: bold;
+}
+
+.menu-item:last-child {
+    margin: 0;
+    padding-right: 0;
+}
+
+.menu-item a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.menu-item a:hover {
+  background-color: #AAAAAA;
+  color: black;
+  transition: 0.2s;  
+}
+
+.ikona-domu {
+    height: auto;
+    max-height: 20px;
+    width: auto;
+}
+
+/* footer */
+
+footer {
+    background-color: #F2F2F2;
+    width: 100%;
+    height: auto;
+    min-height: 90px;
+    bottom: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.footer-kontakty {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.ikona-kontakty {
+    max-height: 50px;
+    padding: 8px;
+}
+
+.ikona-kontakty:hover {
+  background-color: #AAAAAA;
+  transition: 0.2s;  
+}
+
+.ja {
+    height: 20%;
+    background-color: lightgrey;
+    overflow: hidden;
+}
+
+.ja-text {
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* upravuje šířku stránky */
+
+.uprava-sirka {
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+
+@media screen and (max-width: 970px) {
+    .uprava-sirka{
+        width: 95%;
+  }
+}
+
+/* upravuje vzdálenost nadpisů stránek od horního okraje */
+
+.nadpis {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding-top: 75px;
+}
+
+@media screen and (max-width: 970px) {
+    .nadpis {
+        margin-top: 100px;
+  }
+}

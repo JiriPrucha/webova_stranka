@@ -1,0 +1,162 @@
+body, html{
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100%;
+    width: auto;
+    margin: 0;
+    color: #CACACA;
+    background-image: linear-gradient(to right top, #2e2e2e, #2a2a2a, #262626, #232323, #1f1f1f);
+}
+.pozadi {
+    color: #CACACA;
+    background-image: linear-gradient(to right top, #2e2e2e, #2a2a2a, #262626, #232323, #1f1f1f);
+}
+
+/* header */
+header {
+    background-color: #545454;
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/*logo header, nav bar*/
+
+.logo {
+    display: inline-block;
+    margin-top: auto;
+    height: 100%;
+    max-height: 80px;
+    width: auto;
+    float: left;
+    background-image: linear-gradient(to right, #545454, #5b5b5b, #626262, #696969, #707070, #707070, #707070, #707070, #696969, #626262, #5b5b5b, #545454);
+}
+
+/* nav bar */
+
+.menu {
+    margin-top: 18px;
+    float: right;
+    text-align: right;
+}
+
+@media screen and (max-width: 970px) {
+    .logo, .menu{
+        text-align: center;
+        margin: auto;
+  }
+}
+
+.vyber-right{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    display: inline-block;
+    font-size: 17px;
+    height: auto;
+    max-height: 17px;
+    font-weight: bold;
+}
+
+.menu-item:last-child{
+    margin: 0;
+    padding-right: 0;
+}
+
+.menu-item a {
+  display: block;
+  color: #FAF8FF;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.menu-item a:hover {
+  background-color: gray;
+  color: #FAF8FF;
+  transition: 0.2s;  
+}
+
+.ikona-domu {
+    height: auto;
+    max-height: 20px;
+    width: auto;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #545454;
+    width: 100%;
+    height: auto;
+    min-height: 90px;
+    bottom: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.footer-kontakty {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.ikona-kontakty {
+    max-height: 50px;
+    padding: 8px;
+}
+
+.ikona-kontakty:hover {
+  background-color: #AAAAAA;
+  transition: 0.2s;  
+}
+
+.ja {
+    height: 20%;
+    background-color: #4F4F4F;
+    overflow: hidden;
+}
+
+.ja-text{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* upravuje šířku stránky */
+
+.uprava-sirka {
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+
+@media screen and (max-width: 970px) {
+    .uprava-sirka{
+        width: 95%;
+  }
+}
+
+
+/* upravuje vzdálenost nadpisů stránek od horního okraje */
+
+.nadpis {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding-top: 75px;
+}
+
+@media screen and (max-width: 1500px) {
+    .nadpis {
+        margin-top: 100px;
+  }
+}

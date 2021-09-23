@@ -1,0 +1,174 @@
+/*velikost jednoho "obrázku"*/
+
+.column {
+    text-align: center;
+    margin: 0.5%;
+    width: 23%;
+    height: auto;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+}
+
+/*Úprava množství obrázků, při jiných velikostech displaye*/
+
+@media screen and (max-width: 1500px) {
+    .column {
+        width: 30%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+    .column {
+        width: 45%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+  }
+}
+
+.column a:hover {
+    filter: grayscale(100%);
+    transition: 0.4s;
+}
+
+.img {
+    margin:auto;
+    height: 100%;
+    max-height: 250px;
+    width: auto;
+}
+
+/* The Modal (background) */
+.modal {
+    padding-top: 50px;
+    display: none;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    
+}
+
+.modal-content {
+    position: relative;
+    background-color: transparent;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.mySlides {
+    height: 90%;
+    width: 90%;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.img-velky {
+    height: 800px;
+    width: auto;  
+}
+
+@media screen and (max-width: 1900px) {
+    .img-velky {
+        height: 700px;
+        width: auto;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+    .img-velky {
+        height: 600px;
+        width: auto;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+    .img-velky {
+        height: 480px;
+        width: auto;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+    .img-velky {
+        height: 400px;
+        width: auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+    .img-velky {
+        height: 300px;
+        width: auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+    .img-velky {
+        height: 100px;
+        width: auto;
+  }
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  font-size: 300%;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    top: 80%;
+    transition: 0.2s ease;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: darkgrey;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+}
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
